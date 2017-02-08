@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>SignUp | Page</title>
+<link rel="shortcut icon" href="chat-2-icon.png" type="image/png" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+table
+{
+
+margin-top:140px;
+margin-left:553px;
+padding:20px;
+border-radius:12px;
+background-color:white;
+}
+.user{
+border-radius:5px;
+height:30px;
+}
+.button1:hover
+{
+background-color: #4CAF50;
+color:white;
+}
+.button1
+{
+    background-color: #52BE80;
+    border:1px pink;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius:5px;
+}
+
+</style>
+</head>
+<body bgcolor=purple>
+<h1 align=center>SignUp</h1>
+<form action="signup.php" method="post">
+<table>
+<tr><td><i class="fa fa-user" style="font-size:24px"></i></td><td><input class="user" type="text" name="username" placeholder="Username" required/></td></tr>
+<tr><td>&nbsp</td></tr>
+<tr><td><i class="fa fa-envelope" style="font-size:24px"></i></td><td><input class="user" type="text" name="email" placeholder="Email id" required/></td></tr>
+<tr><td>&nbsp</td></tr>
+<tr><td><i class="fa fa-lock" style="font-size:24px"></i></td><td><input class="user" type="text" name="password" placeholder="Password" required/></td></tr>
+<tr><td>&nbsp</td></tr>
+<tr><td><i class="fa fa-phone" style="font-size:24px"></i></td><td><input class="user" type="text" name="mobile" placeholder="Contact" required/></td></tr>
+<tr><td>&nbsp</td></tr>
+<tr><td>&nbsp</td><td><input class="button1" type="submit" value="Submit"></td></tr>
+</table>
+</form>
+</body>
+</html>

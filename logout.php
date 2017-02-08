@@ -1,0 +1,9 @@
+<?php
+session_start();
+if($_SESSION['sid1']==session_id())
+{
+session_unset();
+session_destroy();
+header("location:index.html");
+}
+?>

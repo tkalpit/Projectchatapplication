@@ -1,0 +1,14 @@
+<?php
+session_start();
+$_SESSION['sid1']=session_id();
+if($_SESSION['sid1']==session_id())
+{
+$_SESSION['username']=$_POST['username'];
+$_SESSION['password']=$_POST['password'];
+header("location:form2.php");
+}
+else
+{
+	header("location:login.html");
+}
+?>

@@ -1,0 +1,20 @@
+1.Signup
+2.login
+3.If login is successfully done then display the profile of logedin person.
+4.If profile is not exist then first fill the profile.
+5.Then search the person who is exist and watch the profile of that person.
+6.Then we can chat with that person.
+7.If we want to logout then easily click on the logout button.
+
+
+
+
+
+
+
+Process:
+1.When a person login username is saved in session and used in welcome user.
+and if profile of that person is not exist then first 
+1.Search the person you want to chat if that person is exist then check the 'img' table that the person is exist in table if exist then show thw information of that person in prsondisplay.php
+2.If person is not exist then show alert.
+3.In prsondisplay.php message button show the message of that person from inbox.php when we text the message it will redirect on msg.php it will store in database and show on inbox.php
